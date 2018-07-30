@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 ```
 
 #### To start the server
-Go to the `squeeze_app directory` containing `api.py`, then run:
+Go to the `squeeze_app` directory containing `api.py`, then run:
 ```
 $ python api.py
 ```
