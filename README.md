@@ -6,14 +6,19 @@ squeeze_app
 $ workon squeeze_app
 ```
 
-#### To install the required packages
-Make sure your virtual environment is activated
+#### To deactivate virtual environment
+```
+$ deactivate
+```
 
+#### To install the required packages
+Make sure your virtual environment is activated, then run:
 ```
 $ pip install -r requirements.txt
 ```
 
-#### To deactivate virtual environment
+#### To start the server
+Go to the `squeeze_app directory` containing `api.py`, then run:
 ```
-$ deactivate
+$ python api.py
 ```
